@@ -1,5 +1,5 @@
 -- // Initialising the UI
-local Venyx = loadstring(game:HttpGet("https://raw.githubusercontent.com/Stefanuk12/Venyx-UI-Library/main/source2.lua"))()
+local Venyx = loadstring(game:HttpGet("https://raw.githubusercontent.com/Saturn12132/Venyx-ui-lib/main/module.lua"))()
 local UI = Venyx.new({
     title = "Venyx"
 })
