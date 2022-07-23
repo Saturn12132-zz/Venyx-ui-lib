@@ -98,19 +98,6 @@ SectionA:addKeybind({
 
 ```lua
 --dropdown
-SectionA:addSlider({
-    title = "Slider",
-    default = 0,
-    min = -100,
-    max = 100,
-    callback = function(value)
-        print("Dragged", value)
-    end
-})
-```
-
-```lua
---dropdown
 local dropdownContent = {"Hello", "World", "Hello World", "Word", 1, 2, 3} -- // To save me from keep on doing this
 SectionB:addDropdown({
     title = "Dropdown",
