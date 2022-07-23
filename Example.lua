@@ -14,6 +14,11 @@ local Themes = {
     TextColor = Color3.fromRGB(255, 255, 255)
 }
 
+UI:setTheme({
+theme = "Background", 
+color3 = Color3.fromRGB(101,26,138)
+})
+
 -- // Test Page
 local Test = UI:addPage({
     title = "Test",
